@@ -11,14 +11,11 @@
 
 <body>
     <header>
-        <h1 class="bg-info text-white text-center">Javascript DOM</h1>
+        <h1 class="bg-pink text-white text-center">Javascript DOM</h1>
     </header>
 
     <nav class="navbar navbar-expand-lg navbar-light  ">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+
         <div class="collapse navbar-collapse d-flex flex-wrap" id="navbarNav">
             <ul class="navbar-nav row w-100 ">
                 <li class="nav-item col-3">
@@ -89,12 +86,25 @@
 
     <section id="exo4" class="container">
         <div class="bg-light py-5 px-5 my-5">
-            <h2>Déplacer les éléments</h2>
-            <div class="bg-info">
+            <h2 class="text-pink">Déplacer les éléments</h2>
+            <div class="row d-flex justify-content-between">
+                <div class=" bg-info chiant d-flex justify-content-center align-items-center">
+                    <div class="bg-pink w-25 h-25 " id="square1">
+
+                    </div>
+                </div>
+                <div class=" bg-info chiant d-flex justify-content-center align-items-center">
+                    <div class="bg-pink w-25 h-25 d-none " id="square2">
+
+                    </div>
+                </div>
 
             </div>
-            <div class="bg-info">
-
+            <div class="d-flex justify-content-center mt-5 mb-3">
+                <button type="button" class="btn btn-info d-block" id="btnPlace">Change place</button>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn bg-pink text-white d-block" id="clickNumber">Nombre de clicks </button>
             </div>
         </div>
 

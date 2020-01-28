@@ -10763,4 +10763,22 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+.bg-pink {
+  background-color: #f7c4e3;
+}
+
+.text-pink {
+  color: #f7c4e3;
+}
+
+.text-mauve {
+  color: #884ca8;
+}
+
+.chiant {
+  height: 40vh;
+  width: 45%;
+  opacity: 85%;
+}
 /*# sourceMappingURL=main.css.map */
