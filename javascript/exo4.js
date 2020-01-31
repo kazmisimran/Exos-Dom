@@ -1,5 +1,3 @@
-
-
 //exo
 let square1 = document.getElementById('square1');
 let square2 = document.getElementById('square2');

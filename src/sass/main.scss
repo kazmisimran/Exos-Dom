@@ -25,7 +25,16 @@
     opacity: 85%;
 }
 
-#calculette{
+#calculator{
     border-radius: 10%;
 }
 
+.number ,.operator{
+    border-radius: 50%;
+}
+
+.calculator{
+    width: 17vw;
+    padding: 1%;
+    border-radius: 2%;
+}

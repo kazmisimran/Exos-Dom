@@ -9,3 +9,5 @@ let change = () => {
 }
 
 btnGo.addEventListener('click',change);
+
+

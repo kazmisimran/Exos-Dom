@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./public/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -125,7 +126,7 @@
     </section>
 
     <section id="exo6" class="">
-        <div class="bg-light container my-5 py-5">
+        <div class="bg-light py-5 my-5 container">
             <h2>Création calculatrice</h2>
             <h3>Niveau 1</h3>
             <div>
@@ -140,45 +141,43 @@
                 <input type="button" value="=" id="equals">
                 <p class="d-inline" id="rep"></p>
 
-                <h3 class="my-3">Niveau 2 </h3>
+                <h3>Niveau 2</h3>
+
+                <div class="calculator bg-pink">
+                    <div id="result" class="d-flex justify-content-end text-white">
+
+                    </div>
+                    <input type="text" id="history" class="my-3">
+                    <div class="row d-flex justify-content-center my-3">
+                        <button  class="number rounded mx-2 px-3 py-2">1</button>
+                        <button  class="number rounded mx-2 px-3 py-2">2</button>
+                        <button class="number rounded mx-2 px-3 py-2">3</button>
+                        <button id="plus" class="operator rounded mx-2 px-3 py-2">+</button>
+                    </div>
+                    <div class="row d-flex justify-content-center my-3">
+                        <button class="number rounded mx-2 px-3 py-2">4</button>
+                        <button class="number rounded mx-2 px-3 py-2">5</button>
+                        <button class="number rounded mx-2 px-3 py-2">6</button>
+                        <button id="moins" class="operator rounded mx-2 px-3 py-2">-</button>
+                    </div>
+                    <div class="row d-flex justify-content-center my-3">
+                        <button class="number rounded mx-2 px-3 py-2">7</button>
+                        <button class="number rounded mx-2 px-3 py-2">8</button>
+                        <button class="number rounded mx-2 px-3 py-2">9</button>
+                        <button id="fois" class="operator rounded mx-2 px-3 py-2">*</button>
+                    </div>
+                    <div class="row d-flex justify-content-center my-3">
+                        <button id="clear" class="rounded mx-2 px-3 py-2">C</button>
+                        <button class="number rounded mx-2 px-3 py-2">0</button>
+                        <button id="egal" class="rounded mx-2 px-3 py-3">=</button>
+                        <button id="divise" class="operator rounded mx-2 px-3 py-2">/</button>
+                    </div>
+                </div>
+
 
             </div>
-            <div class="bg-pink w-25 py-4 px-4" id="calculette">
-                <div class="row d-flex justify-content-center">
-                    <input type="text" id="inputDisplay">
-                </div>
-                <div class="row mt-5 d-flex justify-content-center">
-                    <button type="button" class="btn btn-info btn-md mx-2">1</button >
-                    <button type="button" class="btn btn-info btn-md mx-2">2</button>
-                    <button type="button" class="btn btn-info btn-md mx-2">3</button>
-                    <button type="button" class="btn bg-mauve text-white btn-md mx-2">+</button>
-                </div>
-                <div class="row mt-3 d-flex justify-content-center">
-                    <button type="button" class="btn btn-info btn-md mx-2">4</button>
-                    <button type="button" class="btn btn-info btn-md mx-2">5</button>
-                    <button type="button" class="btn btn-info btn-md mx-2">6</button>
-                    <button type="button" class="btn bg-mauve text-white btn-md mx-2">-</button>
-
-                </div>
-                <div class="row mt-3 d-flex justify-content-center">
-                    <button type="button" class="btn btn-info btn-md mx-2">7</button>
-                    <button type="button" class="btn btn-info btn-md mx-2">8</button>
-                    <button type="button" class="btn btn-info btn-md mx-2">9</button>
-                    <button type="button" class="btn bg-mauve text-white btn-md mx-2">*</button>
-
-                </div>
-                <div class="row mt-3 d-flex justify-content-center">
-                    <button type="button" class="btn btn-danger btn-md mx-2">c</button>
-                    <button type="button" class="btn bg-mauve text-white btn-md mx-2">0</button>
-                    <button type="button" class="btn bg-mauve text-white btn-md mx-2">=</button>
-                    <button type="button" class="btn bg-mauve text-white btn-md mx-2">/</button>
-
-                </div>
-
-            </div>
-        </div>
-
     </section>
+
 
     <section id="exo7" class="d-none"></section>
 
