@@ -10,7 +10,7 @@ let compt = 0;
 
 let add = () =>{
     let img = document.createElement('img');
-    img.src = "./public/img/egg.jpg";
+    img.src = "../public/img/adjini.jpg";
     divOeuf.appendChild(img);
     compt++;
     compteur.innerHTML = `${compt}`;

@@ -29,9 +29,17 @@
     border-radius: 10%;
 }
 
-.number ,.operator{
+.number ,.operator,.clear,.egal{
+    height: 3vw;
+    width: 3vw;
     border-radius: 50%;
+    border: none;
 }
+.number{
+    background-color: white;
+}
+
+
 
 .calculator{
     width: 17vw;
